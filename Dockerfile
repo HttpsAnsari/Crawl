@@ -9,8 +9,5 @@ RUN pip install requests beautifulsoup4
 # Copy all code
 COPY . .
 
-# Expose port
-EXPOSE 8080
-
 # Run bot
 CMD ["python", "cr.py"]
