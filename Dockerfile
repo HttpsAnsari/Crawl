@@ -10,7 +10,7 @@ RUN pip install requests beautifulsoup4
 COPY . .
 
 # Expose port
-EXPOSE 10000
+EXPOSE 8080
 
 # Run bot
 CMD ["python", "cr.py"]
